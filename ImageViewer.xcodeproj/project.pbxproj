@@ -103,11 +103,10 @@
 		537BC9A51C3EA0A9005EEF5D /* ImageViewer */ = {
 			isa = PBXGroup;
 			children = (
+				537BC9D21C3EA525005EEF5D /* ViewControllers */,
 				537BC9CB1C3EA17A005EEF5D /* Network */,
 				537BC9A91C3EA0A9005EEF5D /* IVAppDelegate.h */,
 				537BC9AA1C3EA0A9005EEF5D /* IVAppDelegate.m */,
-				537BC9AC1C3EA0A9005EEF5D /* IVViewController.h */,
-				537BC9AD1C3EA0A9005EEF5D /* IVViewController.m */,
 				537BC9AF1C3EA0A9005EEF5D /* Main.storyboard */,
 				537BC9B21C3EA0A9005EEF5D /* Assets.xcassets */,
 				537BC9B41C3EA0A9005EEF5D /* LaunchScreen.storyboard */,
@@ -143,6 +142,15 @@
 				537BC9D01C3EA272005EEF5D /* IVApiManager.m */,
 			);
 			path = Network;
+			sourceTree = "<group>";
+		};
+		537BC9D21C3EA525005EEF5D /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				537BC9AC1C3EA0A9005EEF5D /* IVViewController.h */,
+				537BC9AD1C3EA0A9005EEF5D /* IVViewController.m */,
+			);
+			name = ViewControllers;
 			sourceTree = "<group>";
 		};
 		F6F85EAE8DDF15571120895F /* Frameworks */ = {
