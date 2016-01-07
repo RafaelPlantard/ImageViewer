@@ -8,12 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		537BC9A81C3EA0A9005EEF5D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 537BC9A71C3EA0A9005EEF5D /* main.m */; };
-		537BC9AB1C3EA0A9005EEF5D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 537BC9AA1C3EA0A9005EEF5D /* AppDelegate.m */; };
-		537BC9AE1C3EA0A9005EEF5D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 537BC9AD1C3EA0A9005EEF5D /* ViewController.m */; };
+		537BC9AB1C3EA0A9005EEF5D /* IVAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 537BC9AA1C3EA0A9005EEF5D /* IVAppDelegate.m */; };
+		537BC9AE1C3EA0A9005EEF5D /* IVViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 537BC9AD1C3EA0A9005EEF5D /* IVViewController.m */; };
 		537BC9B11C3EA0A9005EEF5D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 537BC9AF1C3EA0A9005EEF5D /* Main.storyboard */; };
 		537BC9B31C3EA0A9005EEF5D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 537BC9B21C3EA0A9005EEF5D /* Assets.xcassets */; };
 		537BC9B61C3EA0A9005EEF5D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 537BC9B41C3EA0A9005EEF5D /* LaunchScreen.storyboard */; };
 		537BC9C11C3EA0A9005EEF5D /* ImageViewerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 537BC9C01C3EA0A9005EEF5D /* ImageViewerTests.m */; };
+		537BC9CE1C3EA23B005EEF5D /* IVSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 537BC9CD1C3EA23B005EEF5D /* IVSessionManager.m */; };
+		537BC9D11C3EA272005EEF5D /* IVApiManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 537BC9D01C3EA272005EEF5D /* IVApiManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,10 +31,10 @@
 /* Begin PBXFileReference section */
 		537BC9A31C3EA0A9005EEF5D /* ImageViewer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ImageViewer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		537BC9A71C3EA0A9005EEF5D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		537BC9A91C3EA0A9005EEF5D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		537BC9AA1C3EA0A9005EEF5D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		537BC9AC1C3EA0A9005EEF5D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		537BC9AD1C3EA0A9005EEF5D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		537BC9A91C3EA0A9005EEF5D /* IVAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IVAppDelegate.h; sourceTree = "<group>"; };
+		537BC9AA1C3EA0A9005EEF5D /* IVAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IVAppDelegate.m; sourceTree = "<group>"; };
+		537BC9AC1C3EA0A9005EEF5D /* IVViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IVViewController.h; sourceTree = "<group>"; };
+		537BC9AD1C3EA0A9005EEF5D /* IVViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IVViewController.m; sourceTree = "<group>"; };
 		537BC9B01C3EA0A9005EEF5D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		537BC9B21C3EA0A9005EEF5D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		537BC9B51C3EA0A9005EEF5D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -40,6 +42,10 @@
 		537BC9BC1C3EA0A9005EEF5D /* ImageViewerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ImageViewerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		537BC9C01C3EA0A9005EEF5D /* ImageViewerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ImageViewerTests.m; sourceTree = "<group>"; };
 		537BC9C21C3EA0A9005EEF5D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		537BC9CC1C3EA23B005EEF5D /* IVSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IVSessionManager.h; sourceTree = "<group>"; };
+		537BC9CD1C3EA23B005EEF5D /* IVSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IVSessionManager.m; sourceTree = "<group>"; };
+		537BC9CF1C3EA272005EEF5D /* IVApiManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IVApiManager.h; sourceTree = "<group>"; };
+		537BC9D01C3EA272005EEF5D /* IVApiManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IVApiManager.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,10 +87,11 @@
 		537BC9A51C3EA0A9005EEF5D /* ImageViewer */ = {
 			isa = PBXGroup;
 			children = (
-				537BC9A91C3EA0A9005EEF5D /* AppDelegate.h */,
-				537BC9AA1C3EA0A9005EEF5D /* AppDelegate.m */,
-				537BC9AC1C3EA0A9005EEF5D /* ViewController.h */,
-				537BC9AD1C3EA0A9005EEF5D /* ViewController.m */,
+				537BC9CB1C3EA17A005EEF5D /* Network */,
+				537BC9A91C3EA0A9005EEF5D /* IVAppDelegate.h */,
+				537BC9AA1C3EA0A9005EEF5D /* IVAppDelegate.m */,
+				537BC9AC1C3EA0A9005EEF5D /* IVViewController.h */,
+				537BC9AD1C3EA0A9005EEF5D /* IVViewController.m */,
 				537BC9AF1C3EA0A9005EEF5D /* Main.storyboard */,
 				537BC9B21C3EA0A9005EEF5D /* Assets.xcassets */,
 				537BC9B41C3EA0A9005EEF5D /* LaunchScreen.storyboard */,
@@ -109,6 +116,17 @@
 				537BC9C21C3EA0A9005EEF5D /* Info.plist */,
 			);
 			path = ImageViewerTests;
+			sourceTree = "<group>";
+		};
+		537BC9CB1C3EA17A005EEF5D /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				537BC9CC1C3EA23B005EEF5D /* IVSessionManager.h */,
+				537BC9CD1C3EA23B005EEF5D /* IVSessionManager.m */,
+				537BC9CF1C3EA272005EEF5D /* IVApiManager.h */,
+				537BC9D01C3EA272005EEF5D /* IVApiManager.m */,
+			);
+			path = Network;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -155,6 +173,7 @@
 		537BC99B1C3EA0A9005EEF5D /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = IV;
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = "Data Empire";
 				TargetAttributes = {
@@ -213,9 +232,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				537BC9AE1C3EA0A9005EEF5D /* ViewController.m in Sources */,
-				537BC9AB1C3EA0A9005EEF5D /* AppDelegate.m in Sources */,
+				537BC9AE1C3EA0A9005EEF5D /* IVViewController.m in Sources */,
+				537BC9AB1C3EA0A9005EEF5D /* IVAppDelegate.m in Sources */,
 				537BC9A81C3EA0A9005EEF5D /* main.m in Sources */,
+				537BC9D11C3EA272005EEF5D /* IVApiManager.m in Sources */,
+				537BC9CE1C3EA23B005EEF5D /* IVSessionManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

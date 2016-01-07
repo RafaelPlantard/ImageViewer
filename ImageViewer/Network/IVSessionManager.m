@@ -1,15 +1,13 @@
 //
-//  ViewController.h
+//  IVSessionManager.m
 //  ImageViewer
 //
 //  Created by Rafael Ferreira on 1/7/16.
 //  Copyright © 2016 Data Empire. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+#import "IVSessionManager.h"
 
-@interface ViewController : UIViewController
-
+@implementation IVSessionManager
 
 @end
-

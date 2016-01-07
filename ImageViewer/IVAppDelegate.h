@@ -8,10 +8,10 @@
 
 #import <UIKit/UIKit.h>
 
-@interface AppDelegate : UIResponder <UIApplicationDelegate>
+/*! @brief App entry point. */
+@interface IVAppDelegate : UIResponder <UIApplicationDelegate>
 
+/*! @brief Represents a reference for the window app. */
 @property (strong, nonatomic) UIWindow *window;
 
-
 @end
-
