@@ -9,7 +9,10 @@
 #import <UIKit/UIKit.h>
 
 /*! @brief Controller for the HomeView. */
-@interface IVViewController : UIViewController<UIScrollViewDelegate>
+@interface IVViewController : UIViewController<UIScrollViewDelegate> {
+    /*! @brief Current page on scroll view component. */
+    int currentPage;
+}
 
 /*! @brief The scroll viewer component to show the images. */
 @property (weak, nonatomic) IBOutlet UIScrollView *imageScrollView;
