@@ -13,11 +13,11 @@
             buildForProfiling = "YES"
             buildForArchiving = "YES">
             <BuildableReference
-               BuildableIdentifier = 'primary'
-               BlueprintIdentifier = '771E054401A7E08DB8091B6A'
-               BlueprintName = 'Pods-ImageViewer'
-               ReferencedContainer = 'container:Pods.xcodeproj'
-               BuildableName = 'libPods-ImageViewer.a'>
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "0176805F9C24397C3925FE81573B5153"
+               BlueprintName = "Pods-ImageViewer"
+               ReferencedContainer = "container:Pods.xcodeproj"
+               BuildableName = "libPods-ImageViewer.a">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>

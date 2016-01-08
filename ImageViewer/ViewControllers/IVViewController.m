@@ -91,8 +91,6 @@
     [_imageScrollView setContentOffset:updatedOffset animated:YES];
 }
 
-
-
 - (void)initScrollView {
     CGSize scrollSize = _imageScrollView.bounds.size;
     
@@ -100,7 +98,6 @@
     float height = scrollSize.height;
     
     _imageScrollView.contentSize = CGSizeMake(width * _elements.count, height);
-    _imageScrollView.pagingEnabled = YES;
     
     _images = [NSMutableArray new];
     
