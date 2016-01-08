@@ -6,9 +6,12 @@
 //  Copyright © 2016 Data Empire. All rights reserved.
 //
 
-#import <Foundation/Foundation.h>
+#import "AFHTTPSessionManager.h"
 
 /*! @brief A session manager generated as a singleton for the app. */
-@interface IVSessionManager : NSObject
+@interface IVSessionManager : AFHTTPSessionManager
+
+/*! @brief Generates a singleton instance of this manager. */
++ (instancetype)sharedManager;
 
 @end
