@@ -21,7 +21,10 @@
     UIAlertAction *continueAction = [UIAlertAction actionWithTitle:@"continue" style:UIAlertActionStyleCancel handler:nil];
     
     UIAlertController *alertController = [UIAlertController alertControllerWithTitle:@"500px Image Viewer" message:message preferredStyle:UIAlertControllerStyleAlert];
+    
     [alertController addAction:continueAction];
+    
+    [self presentViewController:alertController animated:YES completion:nil];
 }
 
 - (void)loadRemoteImage:(int)index {
@@ -79,8 +82,7 @@
 
 /*! @brief Do a request for the 500px api. */
 - (void)doRequest {
-    [[IVApiManager sharedManager]getPhotos:^(id json) {
-        NSLog(@"%@", json);
+    [[IVApiManager sharedManager] getPhotos:^(id json) {
         _elements = json[@"photos"];
         
         [self showMessage:[NSString stringWithFormat:@"%lu images found", _elements.count]];
